@@ -26,7 +26,6 @@ setup(
 slingcli = slingshot.generator:main
 """,
     classifiers=[
-        'Development Status :: 4 - Beta',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
