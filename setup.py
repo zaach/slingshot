@@ -26,7 +26,7 @@ setup(
     install_requires = ['setuptools'],
     entry_points="""
 [console_scripts]
-slingcli = slingshot.generator:main
+sling = slingshot.generator:main
 """,
     classifiers=[
         'Environment :: Console',
