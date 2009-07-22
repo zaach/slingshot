@@ -1,3 +1,6 @@
+import ez_setup
+ez_setup.use_setuptools()
+
 import os
 from setuptools import setup, find_packages
  
@@ -17,7 +20,7 @@ setup(
     description = description,
     long_description = long_description,
     author = 'Zachary Carter',
-    author_email = 'zack.carter@gmail.com',
+    author_email = 'zach@carter.name',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
     install_requires = ['setuptools'],
